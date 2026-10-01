@@ -1,0 +1,11 @@
+Therapy — verificación de exportación
+Fecha: 2026-10-01
+Origen: copia del portal Therapy; sin cambios en el despliegue anterior.
+Node local: v24.19.0. Vercel configurado: 24.x.
+Build npm run build: correcto.
+Pruebas: 19 pruebas completas + 1 prueba de acceso por correo/contraseña: 20 correctas.
+Incluyen contado/tarjeta, devoluciones, liquidaciones, stock propio, importación de 1.500 unidades, interfaz, impresión, estado vacío, autenticación, origen, concurrencia, idempotencia y adjuntos.
+Servicios externos: pruebas de API con doble de Supabase; sin despliegue ni cuenta real.
+Instalación limpia npm ci offline: no completada por falta de un paquete en caché (worker-f). Build y pruebas utilizaron dependencias ya instaladas del proyecto. El lockfile está incluido.
+No incluye credenciales, copia de la base activa ni adjuntos activos.
+No se integró Dux. Ver LEEME.md para activación y limitaciones.

@@ -1,0 +1,7 @@
+test/
+src/seed.mjs
+src/legacy-seed.json
+supabase/
+backups/
+.env*
+*.zip
