@@ -16,7 +16,7 @@ Este paquete contiene una copia independiente del portal: interfaz, lógica de n
 
 La ruta más sencilla para mantenerlo es GitHub + Vercel:
 
-1. Descomprimí `Therapy_Vercel.zip`.
+1. Descomprimí `Therapy_Vercel.zip`. 
 2. Creá un repositorio **privado** en tu cuenta de GitHub. Subí el contenido de la carpeta `therapy-vercel`, incluyendo los archivos que empiezan con punto. `package.json` y `vercel.json` deben quedar en la raíz del repositorio.
 3. En https://vercel.com, elegí **Add New → Project** e importá ese repositorio.
 4. Usá **Framework Preset: Other**. La configuración incluida indica `npm ci`, `npm run build` y carpeta de salida `dist`. No subas solamente `dist`: también se necesita `api/` y `server/`.
